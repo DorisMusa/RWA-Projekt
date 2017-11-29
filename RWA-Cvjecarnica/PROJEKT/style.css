@@ -1,0 +1,144 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;	
+    	background: #E5FFCC;
+}
+#header_wrapper {
+	height: 265px;	
+	background: url(images/header.jpg) no-repeat top center;
+	background-position: x
+}
+#header {
+	position: relative;
+	width: 980px;
+	height: 265px;		
+	padding: 0 10px;
+	margin: 0 auto;	
+}
+
+#menu {
+	float: right;
+	padding-top: 70px;
+	height: 43px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	height: 35px;
+	width: 125px;
+	margin: 0;
+	padding: 8px 0 0 0;
+	text-align: center;
+	font-size: 12px;
+	text-decoration: none;
+	color: #00FF00;
+	font-weight: bold;
+	outline: none;
+}
+
+#menu li a:hover, #menu li .current {
+	color: #66FF66;
+	background: url(images/menu_hover.png) no-repeat top;
+}
+#content_wrapper {
+	width: 900px;
+	margin: 0 auto;
+	padding: 30px 40px;
+	background-color: white;
+	height: 360px;	
+}
+
+#content {
+	float: left;
+	width: 600px;
+}
+
+.content_section {
+	clear: both;
+	width: 100%;
+}
+#content h2 {
+	color: #66FF66;
+	font-size: 24px;
+	padding: 0 0 60px 20px;
+	background: url(images/header_bg.png) no-repeat bottom left;
+}
+
+#sidebar {
+	float: right;
+	width: 280px;
+	padding: 0;	
+}
+
+#sidebar .sidebar_section {
+	margin-bottom: 30px;
+}
+
+#sidebar .sidebar_section_content {
+	margin:0 0 0 35px;
+color: #66FF66;
+	font-size: 20px;
+}
+
+#sidebar h2 {
+	color: #66FF66;
+	font-size: 24px;
+	padding: 0 0 60px 20px;
+	background: url(images/header_bg.png) no-repeat bottom left;
+}
+
+form {
+color: #66FF66;
+	font-size: 14px;
+}
+form input
+{
+color: white;
+background-color: #66FF66;
+}
+
+#footer {
+	width: 980px;
+	margin: 0 auto;
+	padding: 30px 10px;
+	text-align: center;
+	color: #00FF00;
+}
+
+#footer a {
+	color: #00FF00;
+}
+
+#footer .footer_menu {
+	margin: 0 0 10px 0;
+	padding: 0px;
+	list-style: none;
+}
+
+.footer_menu li {
+	margin: 0px;
+	padding: 0 20px;
+	display: inline;
+	border-right: 1px solid #000000;
+}
+
+.footer_menu .last_menu {
+	border: none;
+}
+
